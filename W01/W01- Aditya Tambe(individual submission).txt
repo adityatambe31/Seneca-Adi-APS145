@@ -1,0 +1,32 @@
+
+1. The first player shoots the ball
+
+2. Check if the first player hit or miss
+	Hit: Give 1 point to player 1 and continue
+	Miss: Continue
+
+3. Check if the first player already shot 4 times
+	Yes: Continue to step 4
+	No: Return to step 1
+
+4. The second player shoots the ball
+
+5. Check if the second player hit or miss
+	a) Hit: Give 1 point to player 2 and continue
+	b) Miss: Continue
+
+6. Check if the second player already shot 4 times
+	a) Yes: Continue to step 7
+	b) No: Return to step 4
+
+7. Check if the points are tied
+	a) Yes: Go back to step 1 and add 1 to the “tie” variable
+	b) No: Check for winners
+
+8. Check which player has more points
+	a) Player 1 has more points than player 2: Player 1 wins
+	b) Player 2 has more points than player 1: Player 2 wins
+9. End
+
+
+

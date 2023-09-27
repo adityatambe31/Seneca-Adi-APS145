@@ -1,0 +1,22 @@
+1. Start.
+
+2. Set the duration for green light = 50 seconds.
+   Set the duration for yellow light = 20 seconds.
+   Calculate the duration for red light as red = green + yellow = 50 + 20 = 70 seconds.
+
+3. Check car sensors:
+   a. If the number of cars waiting at the red light is greater than or equal to 5:
+      - Trigger the system to reduce red light duration to 10 seconds.
+   b. Else, no action is required, and the system will continue to run with the calculated red light duration.
+
+4. Check pedestrian walk light:
+   a. If the pedestrian presses the button and the current state is red:
+      - Decrease the red light waiting period by 10 seconds.
+      - Note: Ensure that no other state is active when reducing the red light duration.
+   b. Else, no action is required, and the system will continue to work according to the current state.
+
+5. Check if both pedestrain walk light & car sensors are active,
+   a. it will reduce the time upto 10 secs.
+   b. else, no action is required and system will continue to work according to current state.
+
+6. End.
